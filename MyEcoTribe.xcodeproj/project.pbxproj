@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9CF10EE2AC31C78004FC2C5 /* AccountConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CF10EA2AC31C78004FC2C5 /* AccountConfirmationView.swift */; };
+		A9CF10EF2AC31C78004FC2C5 /* AccountCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CF10EB2AC31C78004FC2C5 /* AccountCreationView.swift */; };
+		A9CF10F02AC31C78004FC2C5 /* MailVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CF10EC2AC31C78004FC2C5 /* MailVerification.swift */; };
+		A9CF10F12AC31C78004FC2C5 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CF10ED2AC31C78004FC2C5 /* PasswordView.swift */; };
+		EB05E0FD2AC2C0FA0092880C /* ClassObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB05E0FC2AC2C0FA0092880C /* ClassObservable.swift */; };
+		EB0E59DC2ABC9EE6001C1CA2 /* PhotoStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E59DB2ABC9EE6001C1CA2 /* PhotoStack.swift */; };
+		EB0E59DE2ABCA051001C1CA2 /* MiddlePlusCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E59DD2ABCA051001C1CA2 /* MiddlePlusCard.swift */; };
+		EB5B47512ABB0A7E003B9B25 /* MyEcoTribeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47502ABB0A7E003B9B25 /* MyEcoTribeApp.swift */; };
+		EB5B47532ABB0A7E003B9B25 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47522ABB0A7E003B9B25 /* LandingView.swift */; };
+		EB5B47552ABB0A80003B9B25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5B47542ABB0A80003B9B25 /* Assets.xcassets */; };
+		EB5B47582ABB0A80003B9B25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5B47572ABB0A80003B9B25 /* Preview Assets.xcassets */; };
+		EB5B475F2ABB0F09003B9B25 /* NewsFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B475E2ABB0F09003B9B25 /* NewsFeedView.swift */; };
+		EB5B47632ABB0F2B003B9B25 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47622ABB0F2B003B9B25 /* EventView.swift */; };
+		EB5B47652ABB0F37003B9B25 /* ProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47642ABB0F37003B9B25 /* ProfilView.swift */; };
+		EB5B47672ABB0F4E003B9B25 /* DefiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47662ABB0F4E003B9B25 /* DefiView.swift */; };
+		EB5B476B2ABB1863003B9B25 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B476A2ABB1863003B9B25 /* UserData.swift */; };
+		EB5B476D2ABB1C68003B9B25 /* EcogesteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B476C2ABB1C68003B9B25 /* EcogesteData.swift */; };
+		EB5B47702ABB1E96003B9B25 /* DefiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B476F2ABB1E96003B9B25 /* DefiData.swift */; };
+		EB5B47722ABB21D9003B9B25 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47712ABB21D9003B9B25 /* EventData.swift */; };
+		EB5B47742ABB2255003B9B25 /* SituationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47732ABB2255003B9B25 /* SituationData.swift */; };
+		EB5B47762ABB22EB003B9B25 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47752ABB22EB003B9B25 /* PostData.swift */; };
+		EB5B47832ABB2846003B9B25 /* ProfilEcogesteCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47822ABB2846003B9B25 /* ProfilEcogesteCard.swift */; };
+		EB5B47852ABB2853003B9B25 /* ProfilDefiCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47842ABB2853003B9B25 /* ProfilDefiCard.swift */; };
+		EB5B47872ABB285B003B9B25 /* ProfilEventCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47862ABB285B003B9B25 /* ProfilEventCard.swift */; };
+		EB5B47892ABB289B003B9B25 /* ScoreCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47882ABB289B003B9B25 /* ScoreCircle.swift */; };
+		EB5B478B2ABB28D3003B9B25 /* DefiCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B478A2ABB28D3003B9B25 /* DefiCard.swift */; };
+		EB5B478D2ABB28F7003B9B25 /* DefiDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B478C2ABB28F7003B9B25 /* DefiDetailCard.swift */; };
+		EB5B478F2ABB290F003B9B25 /* EventCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B478E2ABB290F003B9B25 /* EventCard.swift */; };
+		EB5B47912ABB2918003B9B25 /* EventDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47902ABB2918003B9B25 /* EventDetailCard.swift */; };
+		EB5B47932ABB29BF003B9B25 /* EcogesteCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47922ABB29BF003B9B25 /* EcogesteCard.swift */; };
+		EB5B47952ABB29C9003B9B25 /* SituationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47942ABB29C9003B9B25 /* SituationCard.swift */; };
+		EB5B47972ABB29DA003B9B25 /* EcogesteDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47962ABB29DA003B9B25 /* EcogesteDetailCard.swift */; };
+		EB5B47992ABB30F4003B9B25 /* PostPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47982ABB30F4003B9B25 /* PostPhoto.swift */; };
+		EB5B479B2ABB30FF003B9B25 /* PostTexte.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B479A2ABB30FF003B9B25 /* PostTexte.swift */; };
+		EB5B479D2ABB3153003B9B25 /* CreateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B479C2ABB3153003B9B25 /* CreateButton.swift */; };
+		EB5B479F2ABB33F1003B9B25 /* ConnexionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B479E2ABB33F1003B9B25 /* ConnexionButton.swift */; };
+		EB5B47A12ABB3BD9003B9B25 /* TipsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47A02ABB3BD9003B9B25 /* TipsData.swift */; };
+		EB5B47A52ABC4B16003B9B25 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47A42ABC4B16003B9B25 /* AppColors.swift */; };
+		EB5B47A82ABC4F10003B9B25 /* EcogestesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47A72ABC4F10003B9B25 /* EcogestesView.swift */; };
+		EB5B47AA2ABC6DAA003B9B25 /* MiddleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47A92ABC6DAA003B9B25 /* MiddleCard.swift */; };
+		EB5B47AC2ABC6DE4003B9B25 /* BigCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47AB2ABC6DE4003B9B25 /* BigCard.swift */; };
+		EB5B47AE2ABC6F9B003B9B25 /* SmallCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47AD2ABC6F9B003B9B25 /* SmallCard.swift */; };
+		EB5B47B02ABC787F003B9B25 /* MapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47AF2ABC787F003B9B25 /* MapKit.swift */; };
+		EB5B47B22ABC9408003B9B25 /* LikesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5B47B12ABC9408003B9B25 /* LikesButton.swift */; };
+		EB8ECA862ABD9290007F0232 /* SituationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ECA852ABD9290007F0232 /* SituationView.swift */; };
+		EB8ECA882ABDA24E007F0232 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ECA872ABDA24E007F0232 /* ScoreView.swift */; };
+		EB8ECA8A2ABDA84D007F0232 /* ScoreCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ECA892ABDA84D007F0232 /* ScoreCard.swift */; };
+		EB8ECA932ABDD3B2007F0232 /* TipsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ECA922ABDD3B2007F0232 /* TipsCard.swift */; };
+		EB8ECA952AC17464007F0232 /* NewDefiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ECA942AC17464007F0232 /* NewDefiView.swift */; };
+		EB8ECA972AC179B5007F0232 /* NewEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ECA962AC179B5007F0232 /* NewEventView.swift */; };
+		EB8ECA992AC17B69007F0232 /* ValidateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ECA982AC17B69007F0232 /* ValidateButton.swift */; };
+		EB8ECA9B2AC18253007F0232 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ECA9A2AC18253007F0232 /* EditProfileView.swift */; };
+		EB8ECA9F2AC1B041007F0232 /* AddPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ECA9E2AC1B041007F0232 /* AddPostView.swift */; };
+		EBDC89C22AC328F500C94D26 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDC89C12AC328F500C94D26 /* LoginView.swift */; };
+		EBDC89C42AC333C500C94D26 /* JoinButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDC89C32AC333C500C94D26 /* JoinButton.swift */; };
+		EBDC89E02AC41EF700C94D26 /* MapSelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDC89DF2AC41EF700C94D26 /* MapSelectedView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9CF10EA2AC31C78004FC2C5 /* AccountConfirmationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountConfirmationView.swift; sourceTree = "<group>"; };
+		A9CF10EB2AC31C78004FC2C5 /* AccountCreationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountCreationView.swift; sourceTree = "<group>"; };
+		A9CF10EC2AC31C78004FC2C5 /* MailVerification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailVerification.swift; sourceTree = "<group>"; };
+		A9CF10ED2AC31C78004FC2C5 /* PasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
+		EB05E0FC2AC2C0FA0092880C /* ClassObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassObservable.swift; sourceTree = "<group>"; };
+		EB0E59DB2ABC9EE6001C1CA2 /* PhotoStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStack.swift; sourceTree = "<group>"; };
+		EB0E59DD2ABCA051001C1CA2 /* MiddlePlusCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddlePlusCard.swift; sourceTree = "<group>"; };
+		EB5B474D2ABB0A7E003B9B25 /* MyEcoTribe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEcoTribe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5B47502ABB0A7E003B9B25 /* MyEcoTribeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEcoTribeApp.swift; sourceTree = "<group>"; };
+		EB5B47522ABB0A7E003B9B25 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		EB5B47542ABB0A80003B9B25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB5B47572ABB0A80003B9B25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB5B475E2ABB0F09003B9B25 /* NewsFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedView.swift; sourceTree = "<group>"; };
+		EB5B47622ABB0F2B003B9B25 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		EB5B47642ABB0F37003B9B25 /* ProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilView.swift; sourceTree = "<group>"; };
+		EB5B47662ABB0F4E003B9B25 /* DefiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefiView.swift; sourceTree = "<group>"; };
+		EB5B476A2ABB1863003B9B25 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		EB5B476C2ABB1C68003B9B25 /* EcogesteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcogesteData.swift; sourceTree = "<group>"; };
+		EB5B476F2ABB1E96003B9B25 /* DefiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefiData.swift; sourceTree = "<group>"; };
+		EB5B47712ABB21D9003B9B25 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		EB5B47732ABB2255003B9B25 /* SituationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SituationData.swift; sourceTree = "<group>"; };
+		EB5B47752ABB22EB003B9B25 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		EB5B47822ABB2846003B9B25 /* ProfilEcogesteCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilEcogesteCard.swift; sourceTree = "<group>"; };
+		EB5B47842ABB2853003B9B25 /* ProfilDefiCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilDefiCard.swift; sourceTree = "<group>"; };
+		EB5B47862ABB285B003B9B25 /* ProfilEventCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilEventCard.swift; sourceTree = "<group>"; };
+		EB5B47882ABB289B003B9B25 /* ScoreCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCircle.swift; sourceTree = "<group>"; };
+		EB5B478A2ABB28D3003B9B25 /* DefiCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefiCard.swift; sourceTree = "<group>"; };
+		EB5B478C2ABB28F7003B9B25 /* DefiDetailCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefiDetailCard.swift; sourceTree = "<group>"; };
+		EB5B478E2ABB290F003B9B25 /* EventCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCard.swift; sourceTree = "<group>"; };
+		EB5B47902ABB2918003B9B25 /* EventDetailCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailCard.swift; sourceTree = "<group>"; };
+		EB5B47922ABB29BF003B9B25 /* EcogesteCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcogesteCard.swift; sourceTree = "<group>"; };
+		EB5B47942ABB29C9003B9B25 /* SituationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SituationCard.swift; sourceTree = "<group>"; };
+		EB5B47962ABB29DA003B9B25 /* EcogesteDetailCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcogesteDetailCard.swift; sourceTree = "<group>"; };
+		EB5B47982ABB30F4003B9B25 /* PostPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPhoto.swift; sourceTree = "<group>"; };
+		EB5B479A2ABB30FF003B9B25 /* PostTexte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTexte.swift; sourceTree = "<group>"; };
+		EB5B479C2ABB3153003B9B25 /* CreateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateButton.swift; sourceTree = "<group>"; };
+		EB5B479E2ABB33F1003B9B25 /* ConnexionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnexionButton.swift; sourceTree = "<group>"; };
+		EB5B47A02ABB3BD9003B9B25 /* TipsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsData.swift; sourceTree = "<group>"; };
+		EB5B47A42ABC4B16003B9B25 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		EB5B47A72ABC4F10003B9B25 /* EcogestesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcogestesView.swift; sourceTree = "<group>"; };
+		EB5B47A92ABC6DAA003B9B25 /* MiddleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleCard.swift; sourceTree = "<group>"; };
+		EB5B47AB2ABC6DE4003B9B25 /* BigCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigCard.swift; sourceTree = "<group>"; };
+		EB5B47AD2ABC6F9B003B9B25 /* SmallCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCard.swift; sourceTree = "<group>"; };
+		EB5B47AF2ABC787F003B9B25 /* MapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKit.swift; sourceTree = "<group>"; };
+		EB5B47B12ABC9408003B9B25 /* LikesButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesButton.swift; sourceTree = "<group>"; };
+		EB8ECA852ABD9290007F0232 /* SituationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SituationView.swift; sourceTree = "<group>"; };
+		EB8ECA872ABDA24E007F0232 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		EB8ECA892ABDA84D007F0232 /* ScoreCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCard.swift; sourceTree = "<group>"; };
+		EB8ECA922ABDD3B2007F0232 /* TipsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsCard.swift; sourceTree = "<group>"; };
+		EB8ECA942AC17464007F0232 /* NewDefiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDefiView.swift; sourceTree = "<group>"; };
+		EB8ECA962AC179B5007F0232 /* NewEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEventView.swift; sourceTree = "<group>"; };
+		EB8ECA982AC17B69007F0232 /* ValidateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateButton.swift; sourceTree = "<group>"; };
+		EB8ECA9A2AC18253007F0232 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		EB8ECA9E2AC1B041007F0232 /* AddPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostView.swift; sourceTree = "<group>"; };
+		EBDC89C12AC328F500C94D26 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EBDC89C32AC333C500C94D26 /* JoinButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinButton.swift; sourceTree = "<group>"; };
+		EBDC89DF2AC41EF700C94D26 /* MapSelectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSelectedView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB5B474A2ABB0A7E003B9B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB05E0FB2AC2C0DB0092880C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EB05E0FC2AC2C0FA0092880C /* ClassObservable.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EB5B47442ABB0A7E003B9B25 = {
+			isa = PBXGroup;
+			children = (
+				EB5B474F2ABB0A7E003B9B25 /* MyEcoTribe */,
+				EB5B474E2ABB0A7E003B9B25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB5B474E2ABB0A7E003B9B25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB5B474D2ABB0A7E003B9B25 /* MyEcoTribe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB5B474F2ABB0A7E003B9B25 /* MyEcoTribe */ = {
+			isa = PBXGroup;
+			children = (
+				EB5B47502ABB0A7E003B9B25 /* MyEcoTribeApp.swift */,
+				EB5B47522ABB0A7E003B9B25 /* LandingView.swift */,
+				EB5B47682ABB17E8003B9B25 /* Views */,
+				EB5B47692ABB17F9003B9B25 /* Structures */,
+				EB5B476E2ABB1E63003B9B25 /* Composants */,
+				EB5B47542ABB0A80003B9B25 /* Assets.xcassets */,
+				EB5B47562ABB0A80003B9B25 /* Preview Content */,
+			);
+			path = MyEcoTribe;
+			sourceTree = "<group>";
+		};
+		EB5B47562ABB0A80003B9B25 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB5B47572ABB0A80003B9B25 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB5B47682ABB17E8003B9B25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB5B47A62ABC4EF8003B9B25 /* Ecogestes */,
+				EB5B477B2ABB2571003B9B25 /* Login */,
+				EB5B47772ABB24E5003B9B25 /* News feed */,
+				EB5B47782ABB24F6003B9B25 /* Defis */,
+				EB5B47792ABB2500003B9B25 /* Events */,
+				EB5B477A2ABB2514003B9B25 /* Profil */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EB5B47692ABB17F9003B9B25 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				EB5B476A2ABB1863003B9B25 /* UserData.swift */,
+				EB5B476C2ABB1C68003B9B25 /* EcogesteData.swift */,
+				EB5B476F2ABB1E96003B9B25 /* DefiData.swift */,
+				EB5B47752ABB22EB003B9B25 /* PostData.swift */,
+				EB5B47712ABB21D9003B9B25 /* EventData.swift */,
+				EB5B47732ABB2255003B9B25 /* SituationData.swift */,
+				EB5B47A02ABB3BD9003B9B25 /* TipsData.swift */,
+				EB05E0FB2AC2C0DB0092880C /* Classes */,
+			);
+			path = Structures;
+			sourceTree = "<group>";
+		};
+		EB5B476E2ABB1E63003B9B25 /* Composants */ = {
+			isa = PBXGroup;
+			children = (
+				EB8ECA8F2ABDA8BD007F0232 /* Buttons */,
+				EB8ECA8E2ABDA8A1007F0232 /* Cards */,
+				EB8ECA8C2ABDA872007F0232 /* Défis */,
+				EB8ECA8D2ABDA88C007F0232 /* Events */,
+				EB8ECA8B2ABDA858007F0232 /* Ecogestes */,
+				EB8ECA902ABDA8D0007F0232 /* Posts */,
+				EB8ECA912ABDB936007F0232 /* Widgets */,
+			);
+			path = Composants;
+			sourceTree = "<group>";
+		};
+		EB5B47772ABB24E5003B9B25 /* News feed */ = {
+			isa = PBXGroup;
+			children = (
+				EB5B475E2ABB0F09003B9B25 /* NewsFeedView.swift */,
+				EB8ECA9E2AC1B041007F0232 /* AddPostView.swift */,
+			);
+			path = "News feed";
+			sourceTree = "<group>";
+		};
+		EB5B47782ABB24F6003B9B25 /* Defis */ = {
+			isa = PBXGroup;
+			children = (
+				EB5B47662ABB0F4E003B9B25 /* DefiView.swift */,
+				EB8ECA942AC17464007F0232 /* NewDefiView.swift */,
+			);
+			path = Defis;
+			sourceTree = "<group>";
+		};
+		EB5B47792ABB2500003B9B25 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				EB5B47622ABB0F2B003B9B25 /* EventView.swift */,
+				EB8ECA962AC179B5007F0232 /* NewEventView.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		EB5B477A2ABB2514003B9B25 /* Profil */ = {
+			isa = PBXGroup;
+			children = (
+				EB5B47642ABB0F37003B9B25 /* ProfilView.swift */,
+				EB8ECA872ABDA24E007F0232 /* ScoreView.swift */,
+				EB8ECA9A2AC18253007F0232 /* EditProfileView.swift */,
+			);
+			path = Profil;
+			sourceTree = "<group>";
+		};
+		EB5B477B2ABB2571003B9B25 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EBDC89C12AC328F500C94D26 /* LoginView.swift */,
+				A9CF10EA2AC31C78004FC2C5 /* AccountConfirmationView.swift */,
+				A9CF10EB2AC31C78004FC2C5 /* AccountCreationView.swift */,
+				A9CF10EC2AC31C78004FC2C5 /* MailVerification.swift */,
+				A9CF10ED2AC31C78004FC2C5 /* PasswordView.swift */,
+				EB8ECA852ABD9290007F0232 /* SituationView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EB5B47A62ABC4EF8003B9B25 /* Ecogestes */ = {
+			isa = PBXGroup;
+			children = (
+				EB5B47A72ABC4F10003B9B25 /* EcogestesView.swift */,
+			);
+			path = Ecogestes;
+			sourceTree = "<group>";
+		};
+		EB8ECA8B2ABDA858007F0232 /* Ecogestes */ = {
+			isa = PBXGroup;
+			children = (
+				EB5B47922ABB29BF003B9B25 /* EcogesteCard.swift */,
+				EB5B47962ABB29DA003B9B25 /* EcogesteDetailCard.swift */,
+				EB5B47822ABB2846003B9B25 /* ProfilEcogesteCard.swift */,
+			);
+			path = Ecogestes;
+			sourceTree = "<group>";
+		};
+		EB8ECA8C2ABDA872007F0232 /* Défis */ = {
+			isa = PBXGroup;
+			children = (
+				EB5B478A2ABB28D3003B9B25 /* DefiCard.swift */,
+				EB5B478C2ABB28F7003B9B25 /* DefiDetailCard.swift */,
+				EB5B47842ABB2853003B9B25 /* ProfilDefiCard.swift */,
+			);
+			name = "Défis";
+			path = "Défis";
+			sourceTree = "<group>";
+		};
+		EB8ECA8D2ABDA88C007F0232 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				EB5B478E2ABB290F003B9B25 /* EventCard.swift */,
+				EB5B47902ABB2918003B9B25 /* EventDetailCard.swift */,
+				EB5B47862ABB285B003B9B25 /* ProfilEventCard.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		EB8ECA8E2ABDA8A1007F0232 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				EB5B47AB2ABC6DE4003B9B25 /* BigCard.swift */,
+				EB5B47A92ABC6DAA003B9B25 /* MiddleCard.swift */,
+				EB0E59DD2ABCA051001C1CA2 /* MiddlePlusCard.swift */,
+				EB8ECA892ABDA84D007F0232 /* ScoreCard.swift */,
+				EB5B47942ABB29C9003B9B25 /* SituationCard.swift */,
+				EB5B47AD2ABC6F9B003B9B25 /* SmallCard.swift */,
+				EB8ECA922ABDD3B2007F0232 /* TipsCard.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		EB8ECA8F2ABDA8BD007F0232 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				EB5B479E2ABB33F1003B9B25 /* ConnexionButton.swift */,
+				EB5B479C2ABB3153003B9B25 /* CreateButton.swift */,
+				EBDC89C32AC333C500C94D26 /* JoinButton.swift */,
+				EB8ECA982AC17B69007F0232 /* ValidateButton.swift */,
+				EB5B47B12ABC9408003B9B25 /* LikesButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		EB8ECA902ABDA8D0007F0232 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				EB5B47982ABB30F4003B9B25 /* PostPhoto.swift */,
+				EB5B479A2ABB30FF003B9B25 /* PostTexte.swift */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		EB8ECA912ABDB936007F0232 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				EB5B47A42ABC4B16003B9B25 /* AppColors.swift */,
+				EB5B47AF2ABC787F003B9B25 /* MapKit.swift */,
+				EB0E59DB2ABC9EE6001C1CA2 /* PhotoStack.swift */,
+				EB5B47882ABB289B003B9B25 /* ScoreCircle.swift */,
+				EBDC89DF2AC41EF700C94D26 /* MapSelectedView.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB5B474C2ABB0A7E003B9B25 /* MyEcoTribe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB5B475B2ABB0A80003B9B25 /* Build configuration list for PBXNativeTarget "MyEcoTribe" */;
+			buildPhases = (
+				EB5B47492ABB0A7E003B9B25 /* Sources */,
+				EB5B474A2ABB0A7E003B9B25 /* Frameworks */,
+				EB5B474B2ABB0A7E003B9B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyEcoTribe;
+			productName = MyEcoTribe;
+			productReference = EB5B474D2ABB0A7E003B9B25 /* MyEcoTribe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB5B47452ABB0A7E003B9B25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EB5B474C2ABB0A7E003B9B25 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EB5B47482ABB0A7E003B9B25 /* Build configuration list for PBXProject "MyEcoTribe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB5B47442ABB0A7E003B9B25;
+			productRefGroup = EB5B474E2ABB0A7E003B9B25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB5B474C2ABB0A7E003B9B25 /* MyEcoTribe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB5B474B2ABB0A7E003B9B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5B47582ABB0A80003B9B25 /* Preview Assets.xcassets in Resources */,
+				EB5B47552ABB0A80003B9B25 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB5B47492ABB0A7E003B9B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5B47742ABB2255003B9B25 /* SituationData.swift in Sources */,
+				EB5B47762ABB22EB003B9B25 /* PostData.swift in Sources */,
+				EB5B47952ABB29C9003B9B25 /* SituationCard.swift in Sources */,
+				EB8ECA932ABDD3B2007F0232 /* TipsCard.swift in Sources */,
+				EB5B47AA2ABC6DAA003B9B25 /* MiddleCard.swift in Sources */,
+				EB5B47672ABB0F4E003B9B25 /* DefiView.swift in Sources */,
+				EB5B47912ABB2918003B9B25 /* EventDetailCard.swift in Sources */,
+				EB5B47832ABB2846003B9B25 /* ProfilEcogesteCard.swift in Sources */,
+				EB5B475F2ABB0F09003B9B25 /* NewsFeedView.swift in Sources */,
+				EB5B47A12ABB3BD9003B9B25 /* TipsData.swift in Sources */,
+				EB8ECA882ABDA24E007F0232 /* ScoreView.swift in Sources */,
+				EB5B47932ABB29BF003B9B25 /* EcogesteCard.swift in Sources */,
+				EB5B47A82ABC4F10003B9B25 /* EcogestesView.swift in Sources */,
+				EB5B47722ABB21D9003B9B25 /* EventData.swift in Sources */,
+				EB5B47532ABB0A7E003B9B25 /* LandingView.swift in Sources */,
+				EB8ECA8A2ABDA84D007F0232 /* ScoreCard.swift in Sources */,
+				EB8ECA972AC179B5007F0232 /* NewEventView.swift in Sources */,
+				A9CF10EE2AC31C78004FC2C5 /* AccountConfirmationView.swift in Sources */,
+				EB5B47B02ABC787F003B9B25 /* MapKit.swift in Sources */,
+				EB8ECA9B2AC18253007F0232 /* EditProfileView.swift in Sources */,
+				EB5B47992ABB30F4003B9B25 /* PostPhoto.swift in Sources */,
+				EBDC89C42AC333C500C94D26 /* JoinButton.swift in Sources */,
+				EB5B478B2ABB28D3003B9B25 /* DefiCard.swift in Sources */,
+				EB8ECA992AC17B69007F0232 /* ValidateButton.swift in Sources */,
+				EB5B479B2ABB30FF003B9B25 /* PostTexte.swift in Sources */,
+				EB5B47702ABB1E96003B9B25 /* DefiData.swift in Sources */,
+				EB5B47652ABB0F37003B9B25 /* ProfilView.swift in Sources */,
+				EB8ECA952AC17464007F0232 /* NewDefiView.swift in Sources */,
+				EB0E59DC2ABC9EE6001C1CA2 /* PhotoStack.swift in Sources */,
+				EB5B479D2ABB3153003B9B25 /* CreateButton.swift in Sources */,
+				EB8ECA862ABD9290007F0232 /* SituationView.swift in Sources */,
+				EB5B47A52ABC4B16003B9B25 /* AppColors.swift in Sources */,
+				EB0E59DE2ABCA051001C1CA2 /* MiddlePlusCard.swift in Sources */,
+				EB5B47AC2ABC6DE4003B9B25 /* BigCard.swift in Sources */,
+				EB5B47972ABB29DA003B9B25 /* EcogesteDetailCard.swift in Sources */,
+				EB5B478D2ABB28F7003B9B25 /* DefiDetailCard.swift in Sources */,
+				EBDC89E02AC41EF700C94D26 /* MapSelectedView.swift in Sources */,
+				EB5B47512ABB0A7E003B9B25 /* MyEcoTribeApp.swift in Sources */,
+				EB5B47892ABB289B003B9B25 /* ScoreCircle.swift in Sources */,
+				EB5B47632ABB0F2B003B9B25 /* EventView.swift in Sources */,
+				EB5B478F2ABB290F003B9B25 /* EventCard.swift in Sources */,
+				EB5B47852ABB2853003B9B25 /* ProfilDefiCard.swift in Sources */,
+				EB8ECA9F2AC1B041007F0232 /* AddPostView.swift in Sources */,
+				EB5B47872ABB285B003B9B25 /* ProfilEventCard.swift in Sources */,
+				A9CF10F12AC31C78004FC2C5 /* PasswordView.swift in Sources */,
+				EB5B47AE2ABC6F9B003B9B25 /* SmallCard.swift in Sources */,
+				EB05E0FD2AC2C0FA0092880C /* ClassObservable.swift in Sources */,
+				A9CF10F02AC31C78004FC2C5 /* MailVerification.swift in Sources */,
+				A9CF10EF2AC31C78004FC2C5 /* AccountCreationView.swift in Sources */,
+				EB5B47B22ABC9408003B9B25 /* LikesButton.swift in Sources */,
+				EB5B476D2ABB1C68003B9B25 /* EcogesteData.swift in Sources */,
+				EBDC89C22AC328F500C94D26 /* LoginView.swift in Sources */,
+				EB5B479F2ABB33F1003B9B25 /* ConnexionButton.swift in Sources */,
+				EB5B476B2ABB1863003B9B25 /* UserData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB5B47592ABB0A80003B9B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB5B475A2ABB0A80003B9B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB5B475C2ABB0A80003B9B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyEcoTribe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EJY.MyEcoTribe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB5B475D2ABB0A80003B9B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyEcoTribe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EJY.MyEcoTribe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB5B47482ABB0A7E003B9B25 /* Build configuration list for PBXProject "MyEcoTribe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5B47592ABB0A80003B9B25 /* Debug */,
+				EB5B475A2ABB0A80003B9B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB5B475B2ABB0A80003B9B25 /* Build configuration list for PBXNativeTarget "MyEcoTribe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5B475C2ABB0A80003B9B25 /* Debug */,
+				EB5B475D2ABB0A80003B9B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB5B47452ABB0A7E003B9B25 /* Project object */;
+}
